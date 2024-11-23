@@ -25,7 +25,7 @@ function Hero() {
         <img
           src={heroImg}
           className={styles.hero}
-          alt="Profile picture of Harris Johnsen"
+          alt="Profile picture"
         />
         <img
           className={styles.colorMode}
@@ -40,7 +40,7 @@ function Hero() {
           <br />
           Ansari
         </h1>
-        <h2>UI/UX Designer</h2>
+        <h2>Frontend Developer<br/>&<br/>UI/UX Designer</h2>
         <span>
           <a href="https://twitter.com/_uzaifansari" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
