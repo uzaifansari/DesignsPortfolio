@@ -46,6 +46,12 @@ function Projects() {
       <h1 className="sectionTitle">Development</h1>
       <div className={styles.projectsContainer}>
         <ProjectCard
+          src={SplitX}
+          link="https://uzaifansari.github.io/splitx"
+          h3="SplitX"
+          p="ReactJS & Python"
+          />
+        <ProjectCard
           src={Portfolio1}
           link="https://uzaifansari.github.io/"
           h3="Portfolio"
@@ -55,7 +61,7 @@ function Projects() {
           src={Portfolio2}
           link="https://uzaifansari.github.io/DesignsPortfolio"
           h3="Portfolio"
-          p="React"
+          p="ReactJS"
         />
         <ProjectCard
           src={BookRecommendation}
@@ -63,12 +69,7 @@ function Projects() {
           h3="Book Recommender"
           p="Python, HTML & CSS"
           />
-        <ProjectCard
-          src={ComingSoon}
-          // link=""
-          h3="S*****"
-          p="Coming Soon!"
-          />
+        
         
       </div>
     </section>
