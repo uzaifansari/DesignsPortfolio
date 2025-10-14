@@ -40,7 +40,7 @@ function Hero() {
           <br />
           Ansari
         </h1>
-        <h2>Full Stack Developer<br/>&<br/>UI/UX Designer</h2>
+        <h2>UI/UX Designer<br/>&<br/>Full Stack Developer</h2>
         <span>
           <a href="https://twitter.com/_uzaifansari" target="_blank">
             <img src={twitterIcon} alt="Twitter icon" />
@@ -56,7 +56,7 @@ function Hero() {
           With a passion for developing modern app and website designs for commercial
           businesses.
         </p>
-        <a href={CV} download>
+        <a href={CV} target="_blank">
           <button className="hover">Resume</button>
         </a>
       </div>
